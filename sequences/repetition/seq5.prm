@@ -1,0 +1,7 @@
+Application:Result%20Processing:StimulusTask int InterpretMode= 0 0 0 2 // interpretation of results: 0 none, 1 online free mode, 2 copy mode (enumeration)
+Application:Result%20Processing:StimulusTask int DisplayResults= 0 1 0 1 // display results of copy/free spelling (boolean)
+Application:Sequencing:StimulusPresentationTask intlist Sequence= 60 10 1 7 4 12 3 2 4 7 2 10 12 2 11 11 9 12 6 1 8 8 4 8 9 5 4 12 2 1 9 8 6 2 1 9 11 9 8 7 11 7 11 6 3 6 10 3 5 10 4 5 5 3 7 3 12 6 5 10 1 // Sequence in which stimuli are presented (deterministic mode)/ Stimulus frequencies for each stimulus (random mode)/ Ignored (P3Speller compatible mode)
+Application:Sequencing:StimulusPresentationTask int SequenceType= 0 0 0 2 // Sequence of stimuli is 0 deterministic, 1 random, 2 P3Speller compatible (enumeration)
+Application:Sequencing:StimulusPresentationTask int NumberOfSequences= 1 1 0 % // number of sequence repetitions
+Application:Sequencing:StimulusPresentationTask intlist ToBeCopied= 1 1 // Sequence in which stimuli need to be copied (only used in copy mode)
+Application:Sequencing:StimulusPresentationTask string UserComment= Seq5 // User comments for a specific run
